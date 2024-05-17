@@ -6,7 +6,7 @@ defmodule PrettyHex.Mixfile do
      version: "0.0.1",
      elixir: "~> 1.0",
      source_url: "https://github.com/polsab/pretty_hex",
-     deps: deps,
+     deps: deps(),
      package: [
        contributors: ["Paul Sabanal"],
        licenses: ["Apache 2.0"],
